@@ -1,0 +1,84 @@
+.Contextmenu .vjs-menu li {
+  
+text-transform: none;
+
+}
+
+.Contextmenu .vjs-menu li.vjs-menu-item-link {
+  
+padding: 0;
+
+}
+
+.Contextmenu .vjs-menu-item-link > .vjs-menu-link {
+  
+display: block;
+  
+padding: 0.em 0 0.2em 0.5em;
+  
+color: inherit;
+  
+text-decoration: inherit;
+  
+text-transform: inherit;
+  
+white-space: nowrap;
+
+}
+.Contextmenu .vjs-rightclick-popup {
+  
+color: #ffffff;
+  
+z-index: 2;
+
+}
+
+
+.Contextmenu .vjs-rightclick-popup {
+  
+-webkit-border-radius: 5px;
+
+-moz-border-radius: 5px;
+  
+border-radius: 5px;
+  
+background-color: #000000;
+  
+background-color: #000000;
+  
+-webkit-box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.5);
+  
+-moz-box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.5);
+  
+box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.5);
+
+}
+
+
+.Contextmenu .vjs-rightclick-popup {
+  
+position: absolute;
+  
+z-index: 5;
+  
+width: auto;
+  
+padding: 1em 0;
+  
+font-size: 110%;
+
+}
+
+.Contextmenu .vjs-rightclick-popup .vjs-menu-item {
+  
+cursor: pointer;
+
+}
+
+.Contextmenu .vjs-rightclick-popup .vjs-menu-item,
+
+.Contextmenu .vjs-rightclick-popup .vjs-menu-item > .vjs-menu-link {
+
+padding: 0.1em 1em;
+
+}

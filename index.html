@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Video.js | HTML5 Video Player</title>
+    <link href="http://vjs.zencdn.net/5.19/video-js.css" rel="stylesheet">
+    <script src="http://vjs.zencdn.net/5.19/video.js"></script>
+    
+    <link href="menucontext.css" rel="stylesheet">
+    <script src="menucontext.js"></script>
+</head>
+<body>
+
+  <video id="video_1" class="video-js vjs-default-skin" controls preload="none" width="640" height="264" poster="http://vjs.zencdn.net/v/oceans.png" data-setup="{}">
+    <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
+</video>
+
+<script>
+
+var player = videojs('video_1');
+player.menucontext({});
+
+</script>
+
+</body>
+
+</html>

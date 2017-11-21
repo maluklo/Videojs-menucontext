@@ -1,4 +1,8 @@
-﻿(function(window, vjs){
+/**
+ * menucontext by maluklo
+ * https://github.com/maluklo
+ */
+(function(window, vjs){
 var registerPlugin = videojs.registerPlugin || videojs.plugin;
 'use strict';
 var vjs_merge = function(obj1, obj2){
